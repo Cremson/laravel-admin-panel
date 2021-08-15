@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="/admin/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
     <!-- Daterange picker -->
     <link rel="stylesheet" href="/admin/plugins/daterangepicker/daterangepicker.css">
-    <!-- summernote -->
-    <link rel="stylesheet" href="/admin/plugins/summernote/summernote-bs4.min.css">
+
+    <link href="/admin/dist/css/colorbox.css" rel="stylesheet">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -85,7 +85,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="./index.html" class="nav-link">
+                                <a href="{{ route('post.create') }}" class="nav-link">
                                     <p>Добавить статью</p>
                                 </a>
                             </li>
@@ -167,6 +167,10 @@
 <script src="/admin/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="/admin/dist/js/pages/dashboard.js"></script>
+<script src="https://cdn.tiny.cloud/1/omvrr38clctgy7j6ehjrbkl2r8utqbp4i3r3tykhq3hthq1c/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 <script src="/admin/admin.js"></script>
+<script type="text/javascript" src="/admin/dist/js/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="/packages/barryvdh/elfinder/js/standalonepopup.js"></script>
+
 </body>
 </html>
