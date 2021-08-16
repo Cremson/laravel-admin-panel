@@ -57,7 +57,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="feature_image">Изображение статьи</label>
-                                    <img src="/{{ $post['img'] }}" alt="" class="img-uploaded" style="display: block"
+                                    <img src="{{ $post['img'] }}" alt="" class="img-uploaded" style="display: block"
                                          width="300px">
                                     <input type="text" value="{{ $post['img'] }}" name="img" class="form-control" id="feature_image"
                                            name="feature_image" value="" readonly>
